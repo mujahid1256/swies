@@ -1,11 +1,13 @@
 import React from "react";
-import 'bootstrap/dist/css/bootstrap.min.css';
+import "bootstrap/dist/css/bootstrap.min.css";
+import Navbar from "./componets/Navbar";
 
+import "./App.css";
 
 function App() {
   return (
     <div>
-      <h2>Siwes Project</h2>
+      <Navbar />
     </div>
   );
 }
